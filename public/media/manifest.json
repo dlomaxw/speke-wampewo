@@ -1,0 +1,882 @@
+[
+  {
+    "url": "/media/wampewo-hero-exterior.png",
+    "filename": "wampewo-hero-exterior.png",
+    "alt": "Speke Apartments Wampewo seen from the gardens at dusk",
+    "group": "hero",
+    "width": 1350,
+    "height": 673,
+    "bytes": 590514,
+    "sourceUrl": "https://www.spekeapartments.com/wampewo/wp-content/uploads/2021/09/Speke-Apartments-Wampewo-Slider-Banner-13-1.png"
+  },
+  {
+    "url": "/media/wampewo-hero-living.png",
+    "filename": "wampewo-hero-living.png",
+    "alt": "Furnished apartment living area with balcony doors open to a city view",
+    "group": "hero",
+    "width": 1350,
+    "height": 673,
+    "bytes": 571847,
+    "sourceUrl": "https://www.spekeapartments.com/wampewo/wp-content/uploads/2021/09/Speke-Apartments-Wampewo-Slider-Banner-7-1.png"
+  },
+  {
+    "url": "/media/wampewo-hero-pool.png",
+    "filename": "wampewo-hero-pool.png",
+    "alt": "Heated outdoor swimming pool surrounded by loungers",
+    "group": "hero",
+    "width": 1350,
+    "height": 673,
+    "bytes": 552602,
+    "sourceUrl": "https://www.spekeapartments.com/wampewo/wp-content/uploads/2021/09/Speke-Apartments-Wampewo-Slider-Banner-6.png"
+  },
+  {
+    "url": "/media/wampewo-hero-bedroom.png",
+    "filename": "wampewo-hero-bedroom.png",
+    "alt": "Apartment bedroom with a king bed and soft evening lighting",
+    "group": "hero",
+    "width": 1350,
+    "height": 673,
+    "bytes": 551051,
+    "sourceUrl": "https://www.spekeapartments.com/wampewo/wp-content/uploads/2021/09/Speke-Apartments-Wampewo-Slider-Banner-2.png"
+  },
+  {
+    "url": "/media/one-bedroom-deluxe-apartment.jpg",
+    "filename": "one-bedroom-deluxe-apartment.jpg",
+    "alt": "One Bedroom Deluxe Apartment bedroom with a double bed and reading lamps",
+    "group": "one-bedroom-deluxe",
+    "width": 1200,
+    "height": 801,
+    "bytes": 207873,
+    "sourceUrl": "https://www.spekeapartments.com/wampewo/wp-content/uploads/2025/10/Deluxe-One-Bedroom-Apt.jpg"
+  },
+  {
+    "url": "/media/one-bedroom-deluxe-living-area.jpg",
+    "filename": "one-bedroom-deluxe-living-area.jpg",
+    "alt": "Living area of a One Bedroom Deluxe Apartment with sofa and dining table",
+    "group": "one-bedroom-deluxe",
+    "width": 1200,
+    "height": 900,
+    "bytes": 150100,
+    "sourceUrl": "https://www.spekeapartments.com/wampewo/wp-content/uploads/2025/10/Deluxe-One-bedroom-Living-area.jpg"
+  },
+  {
+    "url": "/media/one-bedroom-deluxe-bathroom.jpg",
+    "filename": "one-bedroom-deluxe-bathroom.jpg",
+    "alt": "Bathroom of a One Bedroom Deluxe Apartment with a walk-in shower",
+    "group": "one-bedroom-deluxe",
+    "width": 1200,
+    "height": 801,
+    "bytes": 157074,
+    "sourceUrl": "https://www.spekeapartments.com/wampewo/wp-content/uploads/2025/10/One-Bed-Deluxe-Bathroom.jpg"
+  },
+  {
+    "url": "/media/one-bedroom-deluxe-interior.jpg",
+    "filename": "one-bedroom-deluxe-interior.jpg",
+    "alt": "Interior view of a One Bedroom Deluxe Apartment",
+    "group": "one-bedroom-deluxe",
+    "width": 1200,
+    "height": 900,
+    "bytes": 128366,
+    "sourceUrl": "https://www.spekeapartments.com/wampewo/wp-content/uploads/2025/10/Deluxe-One-bedroom-1-.jpg"
+  },
+  {
+    "url": "/media/one-bedroom-superior-apartment.jpg",
+    "filename": "one-bedroom-superior-apartment.jpg",
+    "alt": "One Bedroom Superior Apartment with a king bed and city outlook",
+    "group": "one-bedroom-superior",
+    "width": 1200,
+    "height": 800,
+    "bytes": 205023,
+    "sourceUrl": "https://www.spekeapartments.com/wampewo/wp-content/uploads/2024/05/One-Bedroom-Superior-Apartment-1.jpg"
+  },
+  {
+    "url": "/media/one-bedroom-superior-living-area.jpg",
+    "filename": "one-bedroom-superior-living-area.jpg",
+    "alt": "Living area of a One Bedroom Superior Apartment",
+    "group": "one-bedroom-superior",
+    "width": 1200,
+    "height": 800,
+    "bytes": 190813,
+    "sourceUrl": "https://www.spekeapartments.com/wampewo/wp-content/uploads/2024/05/One-Bedroom-Superior-Apartment-5.jpg"
+  },
+  {
+    "url": "/media/one-bedroom-superior-kitchen.jpg",
+    "filename": "one-bedroom-superior-kitchen.jpg",
+    "alt": "Fully equipped kitchen in a One Bedroom Superior Apartment",
+    "group": "one-bedroom-superior",
+    "width": 1200,
+    "height": 800,
+    "bytes": 203833,
+    "sourceUrl": "https://www.spekeapartments.com/wampewo/wp-content/uploads/2024/05/One-Bedroom-Superior-Apartment-6.jpg"
+  },
+  {
+    "url": "/media/one-bedroom-superior-bathroom.jpg",
+    "filename": "one-bedroom-superior-bathroom.jpg",
+    "alt": "Bathroom in a One Bedroom Superior Apartment",
+    "group": "one-bedroom-superior",
+    "width": 1200,
+    "height": 800,
+    "bytes": 199615,
+    "sourceUrl": "https://www.spekeapartments.com/wampewo/wp-content/uploads/2024/05/One-Bedroom-Superior-Apartment-7.jpg"
+  },
+  {
+    "url": "/media/two-bedroom-deluxe-apartment.jpg",
+    "filename": "two-bedroom-deluxe-apartment.jpg",
+    "alt": "Two Bedroom Deluxe Apartment bedroom with twin beds",
+    "group": "two-bedroom-deluxe",
+    "width": 1200,
+    "height": 900,
+    "bytes": 130273,
+    "sourceUrl": "https://www.spekeapartments.com/wampewo/wp-content/uploads/2025/10/Deluxe-two-bedroom.jpg"
+  },
+  {
+    "url": "/media/two-bedroom-deluxe-living-area.jpg",
+    "filename": "two-bedroom-deluxe-living-area.jpg",
+    "alt": "Living and dining area of a Two Bedroom Deluxe Apartment",
+    "group": "two-bedroom-deluxe",
+    "width": 1200,
+    "height": 900,
+    "bytes": 151411,
+    "sourceUrl": "https://www.spekeapartments.com/wampewo/wp-content/uploads/2025/10/Deluxe-two-bedroom-living-area.jpg"
+  },
+  {
+    "url": "/media/two-bedroom-deluxe-kitchen.jpg",
+    "filename": "two-bedroom-deluxe-kitchen.jpg",
+    "alt": "Kitchen area of a Two Bedroom Deluxe Apartment with oven and fridge",
+    "group": "two-bedroom-deluxe",
+    "width": 1200,
+    "height": 900,
+    "bytes": 130254,
+    "sourceUrl": "https://www.spekeapartments.com/wampewo/wp-content/uploads/2025/10/Deluxe-two-bedroom-Kitchen-area.jpg"
+  },
+  {
+    "url": "/media/two-bedroom-superior-apartment.jpg",
+    "filename": "two-bedroom-superior-apartment.jpg",
+    "alt": "Two Bedroom Superior Apartment bedroom with a king bed",
+    "group": "two-bedroom-superior",
+    "width": 1200,
+    "height": 800,
+    "bytes": 185903,
+    "sourceUrl": "https://www.spekeapartments.com/wampewo/wp-content/uploads/2025/10/Two-bedroom-bedroom.jpg"
+  },
+  {
+    "url": "/media/two-bedroom-superior-living-area.jpg",
+    "filename": "two-bedroom-superior-living-area.jpg",
+    "alt": "Two Bedroom Superior Apartment living area opening onto a private balcony",
+    "group": "two-bedroom-superior",
+    "width": 1200,
+    "height": 800,
+    "bytes": 182490,
+    "sourceUrl": "https://www.spekeapartments.com/wampewo/wp-content/uploads/2025/10/Two-bedroom-living-area-with-balcony.jpg"
+  },
+  {
+    "url": "/media/two-bedroom-superior-kitchen.jpg",
+    "filename": "two-bedroom-superior-kitchen.jpg",
+    "alt": "Full kitchen in a Two Bedroom Superior Apartment",
+    "group": "two-bedroom-superior",
+    "width": 1200,
+    "height": 800,
+    "bytes": 155973,
+    "sourceUrl": "https://www.spekeapartments.com/wampewo/wp-content/uploads/2025/10/Two-bedroom-kitchen.jpg"
+  },
+  {
+    "url": "/media/three-bedroom-apartment.jpg",
+    "filename": "three-bedroom-apartment.jpg",
+    "alt": "Three Bedroom Apartment living room with balcony access",
+    "group": "three-bedroom-apartment",
+    "width": 756,
+    "height": 431,
+    "bytes": 256293,
+    "sourceUrl": "https://www.spekeapartments.com/wampewo/wp-content/uploads/2021/09/Speke-Apartments-Wampewo-Three-Bedroom-Apartment-5.jpg"
+  },
+  {
+    "url": "/media/three-bedroom-apartment-living.jpg",
+    "filename": "three-bedroom-apartment-living.jpg",
+    "alt": "Seating area in a Three Bedroom Apartment",
+    "group": "three-bedroom-apartment",
+    "width": 756,
+    "height": 431,
+    "bytes": 223929,
+    "sourceUrl": "https://www.spekeapartments.com/wampewo/wp-content/uploads/2022/02/Speke-Apartments-Wampewo-Three-Bedroom-Apartment-9.jpg"
+  },
+  {
+    "url": "/media/three-bedroom-apartment-bedroom.jpg",
+    "filename": "three-bedroom-apartment-bedroom.jpg",
+    "alt": "Bedroom in a Three Bedroom Apartment",
+    "group": "three-bedroom-apartment",
+    "width": 756,
+    "height": 431,
+    "bytes": 184789,
+    "sourceUrl": "https://www.spekeapartments.com/wampewo/wp-content/uploads/2022/02/Speke-Apartments-Wampewo-Three-Bedroom-Apartment-20.jpg"
+  },
+  {
+    "url": "/media/three-bedroom-apartment-kitchen.jpg",
+    "filename": "three-bedroom-apartment-kitchen.jpg",
+    "alt": "Kitchen in a Three Bedroom Apartment",
+    "group": "three-bedroom-apartment",
+    "width": 756,
+    "height": 431,
+    "bytes": 173148,
+    "sourceUrl": "https://www.spekeapartments.com/wampewo/wp-content/uploads/2022/02/Speke-Apartments-Wampewo-Three-Bedroom-Apartment-10.jpg"
+  },
+  {
+    "url": "/media/three-bedroom-villa.jpg",
+    "filename": "three-bedroom-villa.jpg",
+    "alt": "Three Bedroom Villa exterior with private entrance",
+    "group": "three-bedroom-villa",
+    "width": 756,
+    "height": 504,
+    "bytes": 126936,
+    "sourceUrl": "https://www.spekeapartments.com/wampewo/wp-content/uploads/2025/02/Three-bedroom-villa_-4.jpg"
+  },
+  {
+    "url": "/media/three-bedroom-villa-living.jpg",
+    "filename": "three-bedroom-villa-living.jpg",
+    "alt": "Living room of a Three Bedroom Villa",
+    "group": "three-bedroom-villa",
+    "width": 756,
+    "height": 431,
+    "bytes": 105519,
+    "sourceUrl": "https://www.spekeapartments.com/wampewo/wp-content/uploads/2021/09/Speke-Apartments-Wampewo-Three-Bedroom-Villa-5.jpg"
+  },
+  {
+    "url": "/media/three-bedroom-villa-bedroom.jpg",
+    "filename": "three-bedroom-villa-bedroom.jpg",
+    "alt": "Bedroom suite in a Three Bedroom Villa with a king-size bed",
+    "group": "three-bedroom-villa",
+    "width": 756,
+    "height": 431,
+    "bytes": 104626,
+    "sourceUrl": "https://www.spekeapartments.com/wampewo/wp-content/uploads/2021/09/Speke-Apartments-Wampewo-Three-Bedroom-Villa-2.jpg"
+  },
+  {
+    "url": "/media/three-bedroom-villa-dining.jpg",
+    "filename": "three-bedroom-villa-dining.jpg",
+    "alt": "Dining area in a Three Bedroom Villa",
+    "group": "three-bedroom-villa",
+    "width": 756,
+    "height": 431,
+    "bytes": 101690,
+    "sourceUrl": "https://www.spekeapartments.com/wampewo/wp-content/uploads/2021/09/Speke-Apartments-Wampewo-Three-Bedroom-Villa-4.jpg"
+  },
+  {
+    "url": "/media/penthouse-apartment.jpg",
+    "filename": "penthouse-apartment.jpg",
+    "alt": "Penthouse Apartment living space with panoramic views over Kampala",
+    "group": "penthouse",
+    "width": 756,
+    "height": 431,
+    "bytes": 222095,
+    "sourceUrl": "https://www.spekeapartments.com/wampewo/wp-content/uploads/2022/02/Speke-Apartments-Wampewo-Penthouse-Apartment-19.jpg"
+  },
+  {
+    "url": "/media/penthouse-apartment-living.jpg",
+    "filename": "penthouse-apartment-living.jpg",
+    "alt": "Penthouse Apartment lounge seating",
+    "group": "penthouse",
+    "width": 756,
+    "height": 431,
+    "bytes": 117739,
+    "sourceUrl": "https://www.spekeapartments.com/wampewo/wp-content/uploads/2022/02/Speke-Apartments-Wampewo-Penthouse-Apartment-16.jpg"
+  },
+  {
+    "url": "/media/penthouse-apartment-bedroom.jpg",
+    "filename": "penthouse-apartment-bedroom.jpg",
+    "alt": "Penthouse Apartment bedroom",
+    "group": "penthouse",
+    "width": 756,
+    "height": 431,
+    "bytes": 106398,
+    "sourceUrl": "https://www.spekeapartments.com/wampewo/wp-content/uploads/2022/02/Speke-Apartments-Wampewo-Penthouse-Apartment-15.jpg"
+  },
+  {
+    "url": "/media/penthouse-apartment-terrace.jpg",
+    "filename": "penthouse-apartment-terrace.jpg",
+    "alt": "Penthouse Apartment terrace overlooking the city",
+    "group": "penthouse",
+    "width": 756,
+    "height": 431,
+    "bytes": 105800,
+    "sourceUrl": "https://www.spekeapartments.com/wampewo/wp-content/uploads/2022/02/Speke-Apartments-Wampewo-Penthouse-Apartment-4.jpg"
+  },
+  {
+    "url": "/media/facility-gym-club.jpg",
+    "filename": "facility-gym-club.jpg",
+    "alt": "Health club gym floor with cardio and weight equipment",
+    "group": "facilities",
+    "width": 800,
+    "height": 800,
+    "bytes": 131604,
+    "sourceUrl": "https://www.spekeapartments.com/wampewo/wp-content/uploads/2021/10/Speke-Apartments-Wampewo-facilities_images-1.jpg"
+  },
+  {
+    "url": "/media/facility-swimming-pool.jpg",
+    "filename": "facility-swimming-pool.jpg",
+    "alt": "Heated outdoor swimming pool at Speke Apartments Wampewo",
+    "group": "facilities",
+    "width": 800,
+    "height": 800,
+    "bytes": 230398,
+    "sourceUrl": "https://www.spekeapartments.com/wampewo/wp-content/uploads/2021/10/Speke-Apartments-Wampewo-facilities_images-2.jpg"
+  },
+  {
+    "url": "/media/facility-spa.jpg",
+    "filename": "facility-spa.jpg",
+    "alt": "Treatment room at Calabash Spa and Salon",
+    "group": "facilities",
+    "width": 800,
+    "height": 800,
+    "bytes": 160569,
+    "sourceUrl": "https://www.spekeapartments.com/wampewo/wp-content/uploads/2021/10/Speke-Apartments-Wampewo-facilities_images-3.jpg"
+  },
+  {
+    "url": "/media/facility-turkish-hammam.jpg",
+    "filename": "facility-turkish-hammam.jpg",
+    "alt": "Turkish hammam steam room",
+    "group": "facilities",
+    "width": 800,
+    "height": 800,
+    "bytes": 102987,
+    "sourceUrl": "https://www.spekeapartments.com/wampewo/wp-content/uploads/2021/10/Speke-Apartments-Wampewo-facilities_images-4.jpg"
+  },
+  {
+    "url": "/media/about-speke-apartments-wampewo.png",
+    "filename": "about-speke-apartments-wampewo.png",
+    "alt": "Speke Apartments Wampewo apartment building viewed from the street",
+    "group": "property",
+    "width": 628,
+    "height": 379,
+    "bytes": 124671,
+    "sourceUrl": "https://www.spekeapartments.com/wampewo/wp-content/uploads/2021/09/Speke-Apartments-Wampewo-About-Us.png"
+  },
+  {
+    "url": "/media/location-acacia-mall.png",
+    "filename": "location-acacia-mall.png",
+    "alt": "Icon showing the short drive to Acacia Mall",
+    "group": "property",
+    "width": 163,
+    "height": 108,
+    "bytes": 4575,
+    "sourceUrl": "https://www.spekeapartments.com/wampewo/wp-content/uploads/2021/10/Speke-Apartments-wapewo-drive-to-acacia-mall.png"
+  },
+  {
+    "url": "/media/location-kololo-neighbourhood.png",
+    "filename": "location-kololo-neighbourhood.png",
+    "alt": "Icon representing the secure Kololo neighbourhood",
+    "group": "property",
+    "width": 168,
+    "height": 141,
+    "bytes": 1758,
+    "sourceUrl": "https://www.spekeapartments.com/wampewo/wp-content/uploads/2021/09/Speke-Apartments-wapewo-prestigious-community.png"
+  },
+  {
+    "url": "/media/speke-apartments-wampewo-logo.png",
+    "filename": "speke-apartments-wampewo-logo.png",
+    "alt": "Speke Apartments Wampewo logo",
+    "group": "brand",
+    "width": 200,
+    "height": 75,
+    "bytes": 18780,
+    "sourceUrl": "https://www.spekeapartments.com/wampewo/wp-content/uploads/2021/09/Speke-Apartments-Wampewo-Logo200x75.png"
+  },
+  {
+    "url": "/media/speke-apartments-wampewo-logo-square.jpg",
+    "filename": "speke-apartments-wampewo-logo-square.jpg",
+    "alt": "Speke Apartments Wampewo square logo",
+    "group": "brand",
+    "width": 164,
+    "height": 164,
+    "bytes": 21872,
+    "sourceUrl": "https://www.spekeapartments.com/wampewo/wp-content/uploads/2021/10/Spek-apartment-wampewo-logo-square.jpg"
+  },
+  {
+    "url": "/media/dining-01.jpg",
+    "filename": "dining-01.jpg",
+    "alt": "La Cabana restaurant at Speke Apartments Wampewo (1)",
+    "group": "gallery-dining",
+    "width": 1080,
+    "height": 1080,
+    "bytes": 1121931,
+    "sourceUrl": "https://www.spekeapartments.com/wampewo/wp-content/uploads/2024/07/LaCabana-Brazilian-Churrasco-Speke-apartments-wampewo.jpg"
+  },
+  {
+    "url": "/media/dining-02.jpg",
+    "filename": "dining-02.jpg",
+    "alt": "La Cabana restaurant at Speke Apartments Wampewo (2)",
+    "group": "gallery-dining",
+    "width": 1080,
+    "height": 1080,
+    "bytes": 1007147,
+    "sourceUrl": "https://www.spekeapartments.com/wampewo/wp-content/uploads/2024/07/LaCabana-Friday-Band-Speke-apartments-wampewo.jpg"
+  },
+  {
+    "url": "/media/dining-03.jpg",
+    "filename": "dining-03.jpg",
+    "alt": "La Cabana restaurant at Speke Apartments Wampewo (3)",
+    "group": "gallery-dining",
+    "width": 1080,
+    "height": 1080,
+    "bytes": 713587,
+    "sourceUrl": "https://www.spekeapartments.com/wampewo/wp-content/uploads/2024/07/LaCabana-Businesss-Lunch-Speke-apartments-wamwpewo.jpg"
+  },
+  {
+    "url": "/media/dining-04.png",
+    "filename": "dining-04.png",
+    "alt": "La Cabana restaurant at Speke Apartments Wampewo (4)",
+    "group": "gallery-dining",
+    "width": 1400,
+    "height": 935,
+    "bytes": 647390,
+    "sourceUrl": "https://www.spekeapartments.com/wampewo/wp-content/uploads/2021/09/Speke-Apartments-Wampewo-dining-slide_bg__mg__1.png"
+  },
+  {
+    "url": "/media/dining-05.jpg",
+    "filename": "dining-05.jpg",
+    "alt": "La Cabana restaurant at Speke Apartments Wampewo (5)",
+    "group": "gallery-dining",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 562992,
+    "sourceUrl": "https://www.spekeapartments.com/wampewo/wp-content/uploads/2025/05/Speke-Apartments-Wampewo-Dining-Experience.jpg"
+  },
+  {
+    "url": "/media/dining-06.jpg",
+    "filename": "dining-06.jpg",
+    "alt": "La Cabana restaurant at Speke Apartments Wampewo (6)",
+    "group": "gallery-dining",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 403820,
+    "sourceUrl": "https://www.spekeapartments.com/wampewo/wp-content/uploads/2024/11/Lacabana-restaurant-Speke-apartments-wampewo-Christmas-Eve.jpg"
+  },
+  {
+    "url": "/media/dining-07.png",
+    "filename": "dining-07.png",
+    "alt": "La Cabana restaurant at Speke Apartments Wampewo (7)",
+    "group": "gallery-dining",
+    "width": 1400,
+    "height": 800,
+    "bytes": 357313,
+    "sourceUrl": "https://www.spekeapartments.com/wampewo/wp-content/uploads/2021/09/Speke-Apartments-Wampewo-dining-slideimg_bg_.png"
+  },
+  {
+    "url": "/media/dining-08.png",
+    "filename": "dining-08.png",
+    "alt": "La Cabana restaurant at Speke Apartments Wampewo (8)",
+    "group": "gallery-dining",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 332094,
+    "sourceUrl": "https://www.spekeapartments.com/wampewo/wp-content/uploads/2025/02/Lacabana-Business-Lunch.png"
+  },
+  {
+    "url": "/media/dining-09.png",
+    "filename": "dining-09.png",
+    "alt": "La Cabana restaurant at Speke Apartments Wampewo (9)",
+    "group": "gallery-dining",
+    "width": 1353,
+    "height": 408,
+    "bytes": 326270,
+    "sourceUrl": "https://www.spekeapartments.com/wampewo/wp-content/uploads/2022/02/Speke-Apartments-Kitante-dining_img_slide.png"
+  },
+  {
+    "url": "/media/dining-10.jpg",
+    "filename": "dining-10.jpg",
+    "alt": "La Cabana restaurant at Speke Apartments Wampewo (10)",
+    "group": "gallery-dining",
+    "width": 1353,
+    "height": 904,
+    "bytes": 290423,
+    "sourceUrl": "https://www.spekeapartments.com/wampewo/wp-content/uploads/2022/02/Speke-Apartments-Wampewo-dining-slide_img_-12.jpg"
+  },
+  {
+    "url": "/media/dining-11.jpg",
+    "filename": "dining-11.jpg",
+    "alt": "La Cabana restaurant at Speke Apartments Wampewo (11)",
+    "group": "gallery-dining",
+    "width": 1353,
+    "height": 904,
+    "bytes": 281335,
+    "sourceUrl": "https://www.spekeapartments.com/wampewo/wp-content/uploads/2022/02/Speke-Apartments-Wampewo-dining-slide_img_-11.jpg"
+  },
+  {
+    "url": "/media/dining-12.jpg",
+    "filename": "dining-12.jpg",
+    "alt": "La Cabana restaurant at Speke Apartments Wampewo (12)",
+    "group": "gallery-dining",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 278853,
+    "sourceUrl": "https://www.spekeapartments.com/wampewo/wp-content/uploads/2024/11/Lacabana-restaurant-Speke-apartments-wampewo-Christmas-Bonanza.jpg"
+  },
+  {
+    "url": "/media/spa-01.jpg",
+    "filename": "spa-01.jpg",
+    "alt": "Calabash Spa and Salon at Speke Apartments Wampewo (1)",
+    "group": "gallery-spa",
+    "width": 1080,
+    "height": 1080,
+    "bytes": 1101203,
+    "sourceUrl": "https://www.spekeapartments.com/wampewo/wp-content/uploads/2024/07/Calabash-Spa-and-Salon-Speke-Apartments-Wampewo-Speke-resort-Munyonyo-Island-Experience.jpg"
+  },
+  {
+    "url": "/media/spa-02.jpg",
+    "filename": "spa-02.jpg",
+    "alt": "Calabash Spa and Salon at Speke Apartments Wampewo (2)",
+    "group": "gallery-spa",
+    "width": 1080,
+    "height": 1079,
+    "bytes": 970510,
+    "sourceUrl": "https://www.spekeapartments.com/wampewo/wp-content/uploads/2024/07/Calabash-Spa-and-Salon-Speke-Apartments-Wampewo-Speke-resort-Munyonyo-Friday-Rocks.jpg"
+  },
+  {
+    "url": "/media/spa-03.jpg",
+    "filename": "spa-03.jpg",
+    "alt": "Calabash Spa and Salon at Speke Apartments Wampewo (3)",
+    "group": "gallery-spa",
+    "width": 1080,
+    "height": 1079,
+    "bytes": 919785,
+    "sourceUrl": "https://www.spekeapartments.com/wampewo/wp-content/uploads/2024/07/Calabash-Spa-and-Salon-Speke-Apartments-Wampewo-Speke-resort-Munyonyo-Wild-Wednesday.jpg"
+  },
+  {
+    "url": "/media/spa-04.jpg",
+    "filename": "spa-04.jpg",
+    "alt": "Calabash Spa and Salon at Speke Apartments Wampewo (4)",
+    "group": "gallery-spa",
+    "width": 1080,
+    "height": 1079,
+    "bytes": 644888,
+    "sourceUrl": "https://www.spekeapartments.com/wampewo/wp-content/uploads/2024/07/Calabash-Spa-and-Salon-Speke-Apartments-Wampewo-Speke-resort-Munyonyo-30-Minutes-and-more.jpg"
+  },
+  {
+    "url": "/media/spa-05.png",
+    "filename": "spa-05.png",
+    "alt": "Calabash Spa and Salon at Speke Apartments Wampewo (5)",
+    "group": "gallery-spa",
+    "width": 1800,
+    "height": 1202,
+    "bytes": 643251,
+    "sourceUrl": "https://www.spekeapartments.com/wampewo/wp-content/uploads/2021/09/Speke-Apartments-Wampewo-Calabash-Spa-Salon-contact-bg_img_-2.png"
+  },
+  {
+    "url": "/media/spa-06.png",
+    "filename": "spa-06.png",
+    "alt": "Calabash Spa and Salon at Speke Apartments Wampewo (6)",
+    "group": "gallery-spa",
+    "width": 1353,
+    "height": 902,
+    "bytes": 334235,
+    "sourceUrl": "https://www.spekeapartments.com/wampewo/wp-content/uploads/2021/09/Speke-Apartments-Wampewo-Calabash-Spa-Salon-contact-bg_.png"
+  },
+  {
+    "url": "/media/spa-07.png",
+    "filename": "spa-07.png",
+    "alt": "Calabash Spa and Salon at Speke Apartments Wampewo (7)",
+    "group": "gallery-spa",
+    "width": 1800,
+    "height": 1202,
+    "bytes": 333929,
+    "sourceUrl": "https://www.spekeapartments.com/wampewo/wp-content/uploads/2021/09/Speke-Apartments-Wampewo-Calabash-Spa-Salon-contact-bg_img_-1.png"
+  },
+  {
+    "url": "/media/spa-08.jpg",
+    "filename": "spa-08.jpg",
+    "alt": "Calabash Spa and Salon at Speke Apartments Wampewo (8)",
+    "group": "gallery-spa",
+    "width": 1353,
+    "height": 904,
+    "bytes": 286264,
+    "sourceUrl": "https://www.spekeapartments.com/wampewo/wp-content/uploads/2021/09/Speke-Apartments-Wampewo-Calabash-Spa-Salon-Beauty-slider-8-1.jpg"
+  },
+  {
+    "url": "/media/spa-09.png",
+    "filename": "spa-09.png",
+    "alt": "Calabash Spa and Salon at Speke Apartments Wampewo (9)",
+    "group": "gallery-spa",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 283963,
+    "sourceUrl": "https://www.spekeapartments.com/wampewo/wp-content/uploads/2026/02/Love-At-Calabash.png"
+  },
+  {
+    "url": "/media/spa-10.png",
+    "filename": "spa-10.png",
+    "alt": "Calabash Spa and Salon at Speke Apartments Wampewo (10)",
+    "group": "gallery-spa",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 231622,
+    "sourceUrl": "https://www.spekeapartments.com/wampewo/wp-content/uploads/2026/05/Spa-Day-for-Mom_.png"
+  },
+  {
+    "url": "/media/gym-01.jpg",
+    "filename": "gym-01.jpg",
+    "alt": "Health club at Speke Apartments Wampewo (1)",
+    "group": "gallery-gym",
+    "width": 1800,
+    "height": 1200,
+    "bytes": 675616,
+    "sourceUrl": "https://www.spekeapartments.com/wampewo/wp-content/uploads/2021/09/Speke-Apartments-Wampewo-health-gym-contact-bg.jpg"
+  },
+  {
+    "url": "/media/gym-02.jpg",
+    "filename": "gym-02.jpg",
+    "alt": "Health club at Speke Apartments Wampewo (2)",
+    "group": "gallery-gym",
+    "width": 2560,
+    "height": 1828,
+    "bytes": 512908,
+    "sourceUrl": "https://www.spekeapartments.com/wampewo/wp-content/uploads/2021/10/Speke-Apartments-Wampewo-health-gym-classes-scaled.jpg"
+  },
+  {
+    "url": "/media/gym-03.jpg",
+    "filename": "gym-03.jpg",
+    "alt": "Health club at Speke Apartments Wampewo (3)",
+    "group": "gallery-gym",
+    "width": 1353,
+    "height": 600,
+    "bytes": 385331,
+    "sourceUrl": "https://www.spekeapartments.com/wampewo/wp-content/uploads/2021/10/Speke-Apartments-Wampewo-gym_slide-4.jpg"
+  },
+  {
+    "url": "/media/gym-04.jpg",
+    "filename": "gym-04.jpg",
+    "alt": "Health club at Speke Apartments Wampewo (4)",
+    "group": "gallery-gym",
+    "width": 1353,
+    "height": 805,
+    "bytes": 349092,
+    "sourceUrl": "https://www.spekeapartments.com/wampewo/wp-content/uploads/2022/01/Speke-Apartments-Wampewo-health-gym-slider_img-11.jpg"
+  },
+  {
+    "url": "/media/gym-05.png",
+    "filename": "gym-05.png",
+    "alt": "Health club at Speke Apartments Wampewo (5)",
+    "group": "gallery-gym",
+    "width": 1200,
+    "height": 800,
+    "bytes": 323117,
+    "sourceUrl": "https://www.spekeapartments.com/wampewo/wp-content/uploads/2021/09/Speke-Apartments-Wampewo-gym_gb_img___.png"
+  },
+  {
+    "url": "/media/gym-06.jpg",
+    "filename": "gym-06.jpg",
+    "alt": "Health club at Speke Apartments Wampewo (6)",
+    "group": "gallery-gym",
+    "width": 1353,
+    "height": 600,
+    "bytes": 310498,
+    "sourceUrl": "https://www.spekeapartments.com/wampewo/wp-content/uploads/2021/10/Speke-Apartments-Wampewo-gym_slide-3.jpg"
+  },
+  {
+    "url": "/media/gym-07.jpg",
+    "filename": "gym-07.jpg",
+    "alt": "Health club at Speke Apartments Wampewo (7)",
+    "group": "gallery-gym",
+    "width": 1353,
+    "height": 902,
+    "bytes": 297474,
+    "sourceUrl": "https://www.spekeapartments.com/wampewo/wp-content/uploads/2022/01/Speke-Apartments-Wampewo-gym_slide-1.jpg"
+  },
+  {
+    "url": "/media/gym-08.jpg",
+    "filename": "gym-08.jpg",
+    "alt": "Health club at Speke Apartments Wampewo (8)",
+    "group": "gallery-gym",
+    "width": 1353,
+    "height": 600,
+    "bytes": 246015,
+    "sourceUrl": "https://www.spekeapartments.com/wampewo/wp-content/uploads/2021/10/Speke-Apartments-Wampewo-gym_slide-5.jpg"
+  },
+  {
+    "url": "/media/pool-01.png",
+    "filename": "pool-01.png",
+    "alt": "Swimming pool at Speke Apartments Wampewo (1)",
+    "group": "gallery-pool",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 437767,
+    "sourceUrl": "https://www.spekeapartments.com/wampewo/wp-content/uploads/2026/09/Kids-Swim-Ming_.png"
+  },
+  {
+    "url": "/media/pool-02.png",
+    "filename": "pool-02.png",
+    "alt": "Swimming pool at Speke Apartments Wampewo (2)",
+    "group": "gallery-pool",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 400606,
+    "sourceUrl": "https://www.spekeapartments.com/wampewo/wp-content/uploads/2026/09/Kids-Swim-Ming.png"
+  },
+  {
+    "url": "/media/pool-03.jpg",
+    "filename": "pool-03.jpg",
+    "alt": "Swimming pool at Speke Apartments Wampewo (3)",
+    "group": "gallery-pool",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 342282,
+    "sourceUrl": "https://www.spekeapartments.com/wampewo/wp-content/uploads/2025/07/Swimming-Pool-Heated-Speke-apartments-Wampewo.jpg"
+  },
+  {
+    "url": "/media/pool-04.jpg",
+    "filename": "pool-04.jpg",
+    "alt": "Swimming pool at Speke Apartments Wampewo (4)",
+    "group": "gallery-pool",
+    "width": 800,
+    "height": 534,
+    "bytes": 223871,
+    "sourceUrl": "https://www.spekeapartments.com/wampewo/wp-content/uploads/2021/09/Speke-Apartments-Wampewo-swimming-pool-img_-1.jpg"
+  },
+  {
+    "url": "/media/pool-05.jpg",
+    "filename": "pool-05.jpg",
+    "alt": "Swimming pool at Speke Apartments Wampewo (5)",
+    "group": "gallery-pool",
+    "width": 800,
+    "height": 534,
+    "bytes": 130016,
+    "sourceUrl": "https://www.spekeapartments.com/wampewo/wp-content/uploads/2021/09/Speke-Apartments-Wampewo-swimming-pool-img_-2.jpg"
+  },
+  {
+    "url": "/media/apartment-01.jpg",
+    "filename": "apartment-01.jpg",
+    "alt": "Apartment interior at Speke Apartments Wampewo (1)",
+    "group": "gallery-apartments",
+    "width": 1080,
+    "height": 1080,
+    "bytes": 1517816,
+    "sourceUrl": "https://www.spekeapartments.com/wampewo/wp-content/uploads/2023/02/Valentine-Offers-Speke-Apartments-wampewo-1-1.jpg"
+  },
+  {
+    "url": "/media/apartment-02.jpg",
+    "filename": "apartment-02.jpg",
+    "alt": "Apartment interior at Speke Apartments Wampewo (2)",
+    "group": "gallery-apartments",
+    "width": 1080,
+    "height": 1080,
+    "bytes": 1496065,
+    "sourceUrl": "https://www.spekeapartments.com/wampewo/wp-content/uploads/2023/02/Valentine-Offers-Speke-Apartments-wampewo-4-1.jpg"
+  },
+  {
+    "url": "/media/apartment-03.jpg",
+    "filename": "apartment-03.jpg",
+    "alt": "Apartment interior at Speke Apartments Wampewo (3)",
+    "group": "gallery-apartments",
+    "width": 1080,
+    "height": 1080,
+    "bytes": 1163133,
+    "sourceUrl": "https://www.spekeapartments.com/wampewo/wp-content/uploads/2023/02/Valentine-Offers-Speke-Apartments-wampewo-5-1.jpg"
+  },
+  {
+    "url": "/media/apartment-04.jpg",
+    "filename": "apartment-04.jpg",
+    "alt": "Apartment interior at Speke Apartments Wampewo (4)",
+    "group": "gallery-apartments",
+    "width": 1080,
+    "height": 1080,
+    "bytes": 1121931,
+    "sourceUrl": "https://www.spekeapartments.com/wampewo/wp-content/uploads/2024/07/LaCabana-Brazilian-Churrasco-Speke-apartments-wampewo.jpg"
+  },
+  {
+    "url": "/media/apartment-05.jpg",
+    "filename": "apartment-05.jpg",
+    "alt": "Apartment interior at Speke Apartments Wampewo (5)",
+    "group": "gallery-apartments",
+    "width": 1080,
+    "height": 1080,
+    "bytes": 1101203,
+    "sourceUrl": "https://www.spekeapartments.com/wampewo/wp-content/uploads/2024/07/Calabash-Spa-and-Salon-Speke-Apartments-Wampewo-Speke-resort-Munyonyo-Island-Experience.jpg"
+  },
+  {
+    "url": "/media/apartment-06.jpg",
+    "filename": "apartment-06.jpg",
+    "alt": "Apartment interior at Speke Apartments Wampewo (6)",
+    "group": "gallery-apartments",
+    "width": 1351,
+    "height": 901,
+    "bytes": 1069544,
+    "sourceUrl": "https://www.spekeapartments.com/wampewo/wp-content/uploads/2021/09/Speke-Apartments-Wampewo-Contact-us_bg_img.jpg"
+  },
+  {
+    "url": "/media/apartment-07.jpg",
+    "filename": "apartment-07.jpg",
+    "alt": "Apartment interior at Speke Apartments Wampewo (7)",
+    "group": "gallery-apartments",
+    "width": 1080,
+    "height": 1080,
+    "bytes": 1007147,
+    "sourceUrl": "https://www.spekeapartments.com/wampewo/wp-content/uploads/2024/07/LaCabana-Friday-Band-Speke-apartments-wampewo.jpg"
+  },
+  {
+    "url": "/media/apartment-08.jpg",
+    "filename": "apartment-08.jpg",
+    "alt": "Apartment interior at Speke Apartments Wampewo (8)",
+    "group": "gallery-apartments",
+    "width": 1080,
+    "height": 1079,
+    "bytes": 970510,
+    "sourceUrl": "https://www.spekeapartments.com/wampewo/wp-content/uploads/2024/07/Calabash-Spa-and-Salon-Speke-Apartments-Wampewo-Speke-resort-Munyonyo-Friday-Rocks.jpg"
+  },
+  {
+    "url": "/media/apartment-09.jpg",
+    "filename": "apartment-09.jpg",
+    "alt": "Apartment interior at Speke Apartments Wampewo (9)",
+    "group": "gallery-apartments",
+    "width": 1080,
+    "height": 1079,
+    "bytes": 919785,
+    "sourceUrl": "https://www.spekeapartments.com/wampewo/wp-content/uploads/2024/07/Calabash-Spa-and-Salon-Speke-Apartments-Wampewo-Speke-resort-Munyonyo-Wild-Wednesday.jpg"
+  },
+  {
+    "url": "/media/apartment-10.jpg",
+    "filename": "apartment-10.jpg",
+    "alt": "Apartment interior at Speke Apartments Wampewo (10)",
+    "group": "gallery-apartments",
+    "width": 1080,
+    "height": 1080,
+    "bytes": 888604,
+    "sourceUrl": "https://www.spekeapartments.com/wampewo/wp-content/uploads/2023/03/Speke-Apartments-special-new-promos-6.jpg"
+  },
+  {
+    "url": "/media/apartment-11.jpg",
+    "filename": "apartment-11.jpg",
+    "alt": "Apartment interior at Speke Apartments Wampewo (11)",
+    "group": "gallery-apartments",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 753225,
+    "sourceUrl": "https://www.spekeapartments.com/wampewo/wp-content/uploads/2025/05/Speke-Apartments-Wampewo-Sizzle-Sip-Experience.jpg"
+  },
+  {
+    "url": "/media/apartment-12.jpg",
+    "filename": "apartment-12.jpg",
+    "alt": "Apartment interior at Speke Apartments Wampewo (12)",
+    "group": "gallery-apartments",
+    "width": 1080,
+    "height": 1080,
+    "bytes": 750769,
+    "sourceUrl": "https://www.spekeapartments.com/wampewo/wp-content/uploads/2023/03/Speke-Apartments-special-new-promos-5.jpg"
+  },
+  {
+    "url": "/media/apartment-13.jpg",
+    "filename": "apartment-13.jpg",
+    "alt": "Apartment interior at Speke Apartments Wampewo (13)",
+    "group": "gallery-apartments",
+    "width": 1080,
+    "height": 1080,
+    "bytes": 713587,
+    "sourceUrl": "https://www.spekeapartments.com/wampewo/wp-content/uploads/2024/07/LaCabana-Businesss-Lunch-Speke-apartments-wamwpewo.jpg"
+  },
+  {
+    "url": "/media/apartment-14.jpg",
+    "filename": "apartment-14.jpg",
+    "alt": "Apartment interior at Speke Apartments Wampewo (14)",
+    "group": "gallery-apartments",
+    "width": 1080,
+    "height": 1080,
+    "bytes": 696037,
+    "sourceUrl": "https://www.spekeapartments.com/wampewo/wp-content/uploads/2023/02/Valentine-Offers-Speke-Apartments-wampewo-3-1.jpg"
+  }
+]

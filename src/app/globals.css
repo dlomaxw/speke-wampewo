@@ -1,0 +1,247 @@
+@import "tailwindcss";
+
+/* ============================================================
+   Speke Apartments Wampewo — design system
+   Reference: https://claude.ai/artifact/9bmMqDKzZVG4mXpLoXYHLK
+
+   Every colour below was sampled from the logo artwork
+   (Speke-Apartments-Wampewo-Logo200x75.png). The navy this site
+   previously ran on appears nowhere in the logo and has been
+   replaced by espresso-based surfaces.
+
+   Daylight (light) is the ACTIVE theme. Evening ships below under
+   [data-theme="dark"]; set data-theme="dark" on <html> to use it.
+
+   THE RULE THAT CATCHES EVERYONE:
+   --brand-bronze (#b07125) is the logo's own ink and cannot carry
+   text at body size in either direction — 3.78:1 as text on paper,
+   4.01:1 under white, 3.98:1 under near-black. Use it for identity
+   and 24px+ display only.
+     · text at any size  -> --brand-bronze-ink
+     · filled buttons    -> --brand-bronze-deep
+   ============================================================ */
+
+@theme inline {
+  /* --- colour ------------------------------------------------ */
+  --color-brand-bronze: var(--brand-bronze);
+  --color-brand-bronze-deep: var(--brand-bronze-deep);
+  --color-brand-bronze-ink: var(--brand-bronze-ink);
+  --color-brand-gold: var(--brand-gold);
+  --color-brand-gold-tint: var(--brand-gold-tint);
+  --color-brand-antique: var(--brand-antique);
+  --color-brand-espresso: var(--brand-espresso);
+
+  --color-surface-page: var(--surface-page);
+  --color-surface-raised: var(--surface-raised);
+  --color-surface-sunken: var(--surface-sunken);
+  --color-surface-inverse: var(--surface-inverse);
+
+  --color-ink-primary: var(--ink-primary);
+  --color-ink-secondary: var(--ink-secondary);
+  --color-ink-muted: var(--ink-muted);
+  --color-ink-inverse: var(--ink-inverse);
+  /* Text sitting on a photograph. The scrim is dark in BOTH themes,
+     so this ink stays light in both — it must not flip. */
+  --color-ink-on-scrim: var(--ink-on-scrim);
+
+  /* border-* / focus-* tokens, named so the utility reads
+     `border-hairline` rather than `border-border-hairline` */
+  --color-hairline: var(--border-hairline);
+  --color-control: var(--border-control);
+  --color-focus: var(--focus-ring);
+
+  --color-status-success: var(--status-success);
+  --color-status-warning: var(--status-warning);
+  --color-status-danger: var(--status-danger);
+  --color-scrim: var(--scrim-image);
+
+  /* --- type --------------------------------------------------
+     --font-serif / --font-sans come from next/font in layout.tsx */
+  --font-display: var(--font-serif), "Iowan Old Style", Georgia, serif;
+  --font-body: var(--font-sans), "Segoe UI", system-ui, sans-serif;
+
+  --text-display-xl: 64px;
+  --text-display-xl--line-height: 60px;
+  --text-display-xl--font-weight: 400;
+  --text-display-xl--letter-spacing: -0.02em;
+
+  --text-display-l: 48px;
+  --text-display-l--line-height: 50px;
+  --text-display-l--font-weight: 400;
+  --text-display-l--letter-spacing: -0.01em;
+
+  --text-display-m: 34px;
+  --text-display-m--line-height: 40px;
+  --text-display-m--font-weight: 400;
+
+  --text-display-s: 24px;
+  --text-display-s--line-height: 30px;
+  --text-display-s--font-weight: 400;
+
+  --text-body-l: 18px;
+  --text-body-l--line-height: 30px;
+
+  --text-body: 16px;
+  --text-body--line-height: 26px;
+
+  --text-body-s: 14px;
+  --text-body-s--line-height: 22px;
+
+  --text-caption: 13px;
+  --text-caption--line-height: 18px;
+
+  --text-eyebrow: 12px;
+  --text-eyebrow--line-height: 16px;
+  --text-eyebrow--font-weight: 600;
+  --text-eyebrow--letter-spacing: 0.18em;
+
+  --text-label: 13px;
+  --text-label--line-height: 16px;
+  --text-label--font-weight: 600;
+  --text-label--letter-spacing: 0.08em;
+
+  --text-btn: 13px;
+  --text-btn--line-height: 16px;
+  --text-btn--font-weight: 700;
+  --text-btn--letter-spacing: 0.1em;
+
+  --text-rate: 22px;
+  --text-rate--line-height: 26px;
+  --text-rate--font-weight: 600;
+  --text-rate--letter-spacing: -0.01em;
+
+  /* --- shadow — warm, never grey ----------------------------- */
+  --shadow-sm: var(--elev-sm);
+  --shadow-md: var(--elev-md);
+  --shadow-lg: var(--elev-lg);
+  --shadow-xl: var(--elev-xl);
+  --shadow-2xl: var(--elev-2xl);
+}
+
+@layer base {
+  /* ---- Daylight (active) ---- */
+  :root {
+    color-scheme: light;
+
+    --brand-bronze: #b07125;
+    --brand-bronze-deep: #96601f;
+    --brand-bronze-ink: #8a5718;
+    --brand-gold: #efc66b;
+    --brand-gold-tint: #f7e9c4;
+    --brand-antique: #9d7d4f;
+    --brand-espresso: #523a35;
+
+    --surface-page: #fbf8f2;
+    --surface-raised: #ffffff;
+    --surface-sunken: #f2ebdd;
+    --surface-inverse: #2b1f1a;
+
+    --ink-primary: #2b1f1a;
+    --ink-secondary: #5a4a3f;
+    --ink-muted: #736152;
+    --ink-inverse: #fbf8f2;
+    --ink-on-scrim: #fbf8f2;
+
+    --border-hairline: #e6dcc9;
+    --border-control: #8a7a66;
+    --focus-ring: #8a5718;
+
+    --status-success: #1f6b47;
+    --status-warning: #8a5718;
+    --status-danger: #a32f26;
+    --scrim-image: #2b1f1ac4;
+
+    --elev-sm: 0 1px 2px rgba(82, 58, 53, 0.08);
+    --elev-md: 0 6px 18px rgba(82, 58, 53, 0.1);
+    --elev-lg: 0 18px 44px rgba(82, 58, 53, 0.16);
+    --elev-xl: 0 24px 60px rgba(82, 58, 53, 0.2);
+    --elev-2xl: 0 36px 90px rgba(82, 58, 53, 0.24);
+
+    /* spacing ladder — reference values for custom CSS.
+       Tailwind's own numeric scale is left untouched:
+       space-4 = p-4, space-5 = p-6, space-6 = p-8, space-7 = p-12. */
+    --space-1: 4px;
+    --space-2: 8px;
+    --space-3: 12px;
+    --space-4: 16px;
+    --space-5: 24px;
+    --space-6: 32px;
+    --space-7: 48px;
+    --space-8: 72px;
+    --space-9: 112px;
+
+    /* radius ladder — reference values. Tailwind's rounded-* scale
+       is left untouched; the system's own ceiling is 4px on
+       anything rectangular. */
+    --radius-none: 0;
+    --radius-sm: 2px;
+    --radius-md: 4px;
+    --radius-pill: 999px;
+  }
+
+  /* ---- Evening (available via <html data-theme="dark">) ---- */
+  :root[data-theme="dark"] {
+    color-scheme: dark;
+
+    --brand-bronze: #d99a44;
+    --brand-bronze-deep: #b07125;
+    --brand-bronze-ink: #e0a855;
+    --brand-gold: #efc66b;
+    --brand-gold-tint: #3a2e1c;
+    --brand-antique: #9d7d4f;
+    --brand-espresso: #523a35;
+
+    --surface-page: #17120f;
+    --surface-raised: #221b16;
+    --surface-sunken: #0f0b09;
+    --surface-inverse: #f5efe4;
+
+    --ink-primary: #f6f0e6;
+    --ink-secondary: #cbbca8;
+    --ink-muted: #9c8a76;
+    --ink-inverse: #17120f;
+    --ink-on-scrim: #fbf8f2;
+
+    --border-hairline: #2e251e;
+    --border-control: #7a6855;
+    --focus-ring: #efc66b;
+
+    --status-success: #5fbf8d;
+    --status-warning: #e3b25c;
+    --status-danger: #e8796c;
+    --scrim-image: #17120fd1;
+
+    --elev-sm: 0 1px 2px rgba(0, 0, 0, 0.5);
+    --elev-md: 0 6px 18px rgba(0, 0, 0, 0.55);
+    --elev-lg: 0 18px 44px rgba(0, 0, 0, 0.65);
+    --elev-xl: 0 24px 60px rgba(0, 0, 0, 0.7);
+    --elev-2xl: 0 36px 90px rgba(0, 0, 0, 0.75);
+  }
+
+  body {
+    background-color: var(--surface-page);
+    color: var(--ink-primary);
+    font-family: var(--font-sans), "Segoe UI", system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  .font-serif {
+    font-family: var(--font-serif), "Iowan Old Style", Georgia, serif;
+  }
+
+  /* Every focusable element shows the ring. If you remove an
+     outline, put this back in the same commit. */
+  :focus-visible {
+    outline: 2px solid var(--focus-ring);
+    outline-offset: 2px;
+  }
+
+  /* Rates and quote totals line up in a column. */
+  .tabular {
+    font-variant-numeric: tabular-nums;
+  }
+}
