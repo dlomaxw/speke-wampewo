@@ -82,7 +82,7 @@ export async function GET(req: Request) {
   } catch (error: any) {
     console.error('Availability check failed:', error);
     return NextResponse.json(
-      { ok: false, error: error.message || 'Error calculating availability' },
+      { ok: false, error: 'Error calculating availability' },
       { status: 500 },
     );
   }

@@ -115,7 +115,7 @@ export async function POST(req: Request) {
   } catch (error: any) {
     console.error('Facility booking error:', error);
     return NextResponse.json(
-      { ok: false, error: error.message || 'Error processing facility booking' },
+      { ok: false, error: 'Error processing facility booking' },
       { status: 500 },
     );
   }

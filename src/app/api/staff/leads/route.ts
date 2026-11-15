@@ -3,10 +3,14 @@ import { getDb } from '@/db';
 import { leads, leadActivities } from '@/db/schema';
 import { desc, eq, and } from 'drizzle-orm';
 import { newId } from '@/lib/ids';
+import { apiUser } from '@/lib/auth';
 
 export const dynamic = 'force-dynamic';
 
 export async function GET(req: Request) {
+  const auth = await apiUser('crm.view');
+  if (!auth.ok) return NextResponse.json({ ok: false, error: auth.error }, { status: auth.status });
+
   try {
     const { searchParams } = new URL(req.url);
     const department = searchParams.get('department');
@@ -82,11 +86,18 @@ export async function GET(req: Request) {
     return NextResponse.json({ ok: true, leads: filtered, allLeads, stats });
   } catch (err: any) {
     console.error('Error in /api/staff/leads:', err);
-    return NextResponse.json({ ok: false, error: err.message }, { status: 500 });
+    return NextResponse.json(
+      // The driver's message names every column, so it stays in the log.
+      { ok: false, error: 'Something went wrong handling this request.' },
+      { status: 500 },
+    );
   }
 }
 
 export async function PATCH(req: Request) {
+  const auth = await apiUser('crm.edit');
+  if (!auth.ok) return NextResponse.json({ ok: false, error: auth.error }, { status: auth.status });
+
   try {
     const body = await req.json();
     const { id, stage, outcome, notes, assignedTo } = body;
@@ -126,6 +137,10 @@ export async function PATCH(req: Request) {
     return NextResponse.json({ ok: true, message: 'Lead updated successfully' });
   } catch (err: any) {
     console.error('Error updating lead:', err);
-    return NextResponse.json({ ok: false, error: err.message }, { status: 500 });
+    return NextResponse.json(
+      // The driver's message names every column, so it stays in the log.
+      { ok: false, error: 'Something went wrong handling this request.' },
+      { status: 500 },
+    );
   }
 }

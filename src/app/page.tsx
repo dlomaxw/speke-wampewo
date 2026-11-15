@@ -215,12 +215,8 @@ export default function HomePage() {
             <Link href="/contact" className="hover:text-brand-bronze-ink transition-colors">
               Contact & Inquiries
             </Link>
-            <Link
-              href="/staff"
-              className="text-brand-bronze-ink hover:text-brand-bronze-ink text-xs font-semibold px-2.5 py-1 rounded bg-surface-raised/80 border border-hairline transition-colors"
-            >
-              Staff CRM
-            </Link>
+            {/* The staff portal lives at /admin and is not advertised to
+                guests. Staff reach it by the link they are given. */}
           </nav>
 
           <div className="flex items-center gap-3">

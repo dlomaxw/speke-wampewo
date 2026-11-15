@@ -200,64 +200,8 @@ function StaffPortalContent() {
   const activeProfile = ROLE_PROFILES.find((p) => p.id === activeRole) || ROLE_PROFILES[0];
 
   return (
-    <div className="min-h-screen bg-surface-sunken text-ink-primary font-sans flex flex-col">
+    <div className="text-ink-primary font-sans flex flex-col">
       {/* Top Header */}
-      <header className="bg-surface-raised border-b border-hairline px-6 py-4 flex flex-wrap justify-between items-center gap-4">
-        <div className="flex items-center gap-3">
-          <div className="w-10 h-10 rounded-lg bg-brand-antique/20 border border-brand-antique/40 flex items-center justify-center font-serif font-bold text-brand-bronze-ink text-lg">
-            SA
-          </div>
-          <div>
-            <div className="flex items-center gap-2">
-              <h1 className="text-base font-serif font-semibold text-ink-primary tracking-wide">
-                Speke Apartments Wampewo
-              </h1>
-              <span className="text-[10px] uppercase font-semibold tracking-wider px-2 py-0.5 rounded bg-emerald-50/80 text-emerald-700 border border-emerald-300/60">
-                Staff Operations Portal
-              </span>
-            </div>
-            <p className="text-xs text-ink-muted">
-              Multi-Department Operations: Hotel & Apartments, La Cabana, Calabash Spa, Health Club
-            </p>
-          </div>
-        </div>
-
-        {/* Role Switcher & Actions */}
-        <div className="flex flex-wrap items-center gap-3 text-xs">
-          <div className="flex items-center gap-2 bg-surface-page border border-hairline/80 rounded-lg p-1.5">
-            <span className="text-ink-muted text-[11px] pl-1 font-medium">Active Role:</span>
-            <select
-              value={activeRole}
-              onChange={(e) => handleRoleChange(e.target.value)}
-              className="bg-surface-raised text-ink-primary text-xs rounded px-2 py-1 border border-hairline focus:outline-none focus:border-brand-antique"
-            >
-              {ROLE_PROFILES.map((p) => (
-                <option key={p.id} value={p.id}>
-                  {p.title}
-                </option>
-              ))}
-            </select>
-            <span className={`text-[10px] font-semibold px-2 py-0.5 rounded border ${activeProfile.badgeColor}`}>
-              {activeProfile.accessName}
-            </span>
-          </div>
-
-          <button
-            onClick={fetchLeads}
-            disabled={loading}
-            className="flex items-center gap-1.5 text-ink-secondary hover:text-ink-primary bg-surface-raised hover:bg-surface-raised px-3 py-1.5 rounded transition-colors"
-          >
-            <span>🔄</span> {loading ? 'Refreshing...' : 'Refresh'}
-          </button>
-
-          <Link
-            href="/"
-            className="text-ink-secondary hover:text-brand-bronze-ink border border-hairline px-3 py-1.5 rounded transition-colors"
-          >
-            ← Public Website
-          </Link>
-        </div>
-      </header>
 
       {/* Department Navigation Tabs */}
       <div className="bg-surface-raised border-b border-hairline px-6 py-2">
@@ -807,9 +751,9 @@ function StaffPortalContent() {
   );
 }
 
-export default function StaffPortalPage() {
+export default function StaffCrm() {
   return (
-    <Suspense fallback={<div className="min-h-screen bg-surface-sunken text-ink-primary p-8">Loading Operations Portal...</div>}>
+    <Suspense fallback={<div className="text-ink-muted p-8">Loading enquiries…</div>}>
       <StaffPortalContent />
     </Suspense>
   );

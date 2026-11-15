@@ -51,7 +51,7 @@ export async function POST(req: Request) {
     return NextResponse.json(
       {
         ok: false,
-        error: error.message || 'Failed to process inquiry',
+        error: 'Failed to process inquiry',
       },
       { status: 500 },
     );
