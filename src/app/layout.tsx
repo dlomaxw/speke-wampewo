@@ -2,6 +2,10 @@ import type { Metadata } from 'next';
 import { Playfair_Display, Plus_Jakarta_Sans } from 'next/font/google';
 import './globals.css';
 
+import LoadingScreen from '@/components/LoadingScreen';
+import WhatsAppButton from '@/components/WhatsAppButton';
+import GuestChatSlot from '@/components/GuestChatSlot';
+
 const serif = Playfair_Display({
   subsets: ['latin'],
   variable: '--font-serif',
@@ -35,7 +39,15 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${serif.variable} ${sans.variable}`}>
       <body className="bg-surface-page text-ink-primary antialiased selection:bg-brand-antique/30 selection:text-brand-bronze-ink min-h-screen flex flex-col">
+        {/* Rendered by script and self-dismissing, so it can never leave the
+            page behind a blank overlay. */}
+        <LoadingScreen />
         {children}
+
+        {/* Guest-facing only - GuestChatSlot keeps it off the staff area. */}
+        <GuestChatSlot>
+          <WhatsAppButton />
+        </GuestChatSlot>
       </body>
     </html>
   );

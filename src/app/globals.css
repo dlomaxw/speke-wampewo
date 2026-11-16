@@ -131,9 +131,11 @@
     --brand-antique: #9d7d4f;
     --brand-espresso: #523a35;
 
-    --surface-page: #fbf8f2;
+    /* White, as serenahotels.com runs it. Cards are white too and are read
+       by their hairline border and their photograph, not by a tint. */
+    --surface-page: #ffffff;
     --surface-raised: #ffffff;
-    --surface-sunken: #f2ebdd;
+    --surface-sunken: #faf8f4;
     --surface-inverse: #2b1f1a;
 
     --ink-primary: #2b1f1a;
@@ -243,5 +245,44 @@
   /* Rates and quote totals line up in a column. */
   .tabular {
     font-variant-numeric: tabular-nums;
+  }
+
+  /* --- Opening animation -------------------------------------------------
+     The mark settles, then a bronze rule draws beneath it. Everything is
+     suppressed under prefers-reduced-motion, where the splash simply shows
+     and goes. */
+  @keyframes speke-mark-in {
+    from {
+      opacity: 0;
+      transform: translateY(10px) scale(0.96);
+    }
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
+
+  @keyframes speke-rule-draw {
+    from { transform: scaleX(0); }
+    to { transform: scaleX(1); }
+  }
+
+  .speke-mark-in {
+    animation: speke-mark-in 700ms cubic-bezier(0.22, 1, 0.36, 1) both;
+  }
+
+  .speke-rule-draw {
+    transform-origin: left center;
+    animation: speke-rule-draw 1100ms cubic-bezier(0.65, 0, 0.35, 1) 180ms both;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .speke-mark-in,
+    .speke-rule-draw {
+      animation: none;
+    }
+    .speke-rule-draw {
+      transform: scaleX(1);
+    }
   }
 }

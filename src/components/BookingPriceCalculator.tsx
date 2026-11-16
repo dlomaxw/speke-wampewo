@@ -90,13 +90,13 @@ export default function BookingPriceCalculator({
   }, [roomName, checkIn, checkOut, nights, adults, totalAmount]);
 
   return (
-    <div className="sticky top-24 bg-surface-raised rounded-2xl border border-brand-antique/40 p-6 shadow-2xl space-y-6">
+    <div className="sticky top-24 bg-surface-raised rounded-md border border-brand-antique/40 p-6 shadow-2xl space-y-6">
       <div>
         <div className="flex items-center justify-between">
           <span className="text-xs text-brand-bronze-ink uppercase tracking-wider font-semibold">
             Reserve Directly
           </span>
-          <span className="text-[11px] bg-emerald-50/80 border border-emerald-500/40 text-emerald-700 px-2 py-0.5 rounded font-mono">
+          <span className="text-[11px] bg-emerald-50/80 border border-emerald-500/40 text-emerald-700 px-2 py-0.5 rounded-md font-mono">
             Best Rate Guaranteed
           </span>
         </div>
@@ -117,7 +117,7 @@ export default function BookingPriceCalculator({
             min={todayStr}
             value={checkIn}
             onChange={(e) => handleCheckInChange(e.target.value)}
-            className="w-full bg-surface-page border border-hairline rounded px-3 py-2 text-ink-primary focus:outline-none focus:border-brand-antique transition-colors"
+            className="w-full bg-surface-page border border-hairline rounded-md px-3 py-2 text-ink-primary focus:outline-none focus:border-brand-antique transition-colors"
           />
         </div>
 
@@ -131,7 +131,7 @@ export default function BookingPriceCalculator({
             min={checkIn || todayStr}
             value={checkOut}
             onChange={(e) => setCheckOut(e.target.value)}
-            className="w-full bg-surface-page border border-hairline rounded px-3 py-2 text-ink-primary focus:outline-none focus:border-brand-antique transition-colors"
+            className="w-full bg-surface-page border border-hairline rounded-md px-3 py-2 text-ink-primary focus:outline-none focus:border-brand-antique transition-colors"
           />
         </div>
 
@@ -141,7 +141,7 @@ export default function BookingPriceCalculator({
           <select
             value={adults}
             onChange={(e) => setAdults(Number(e.target.value))}
-            className="w-full bg-surface-page border border-hairline rounded px-3 py-2 text-ink-primary focus:outline-none focus:border-brand-antique transition-colors"
+            className="w-full bg-surface-page border border-hairline rounded-md px-3 py-2 text-ink-primary focus:outline-none focus:border-brand-antique transition-colors"
           >
             {Array.from({ length: maxOccupancy }, (_, i) => i + 1).map((num) => (
               <option key={num} value={num}>
@@ -153,7 +153,7 @@ export default function BookingPriceCalculator({
       </div>
 
       {error ? (
-        <div className="p-3 rounded-lg bg-amber-50/50 border border-amber-500/40 text-amber-700 text-xs">
+        <div className="p-3 rounded-md bg-amber-50/50 border border-amber-500/40 text-amber-700 text-xs">
           ⚠️ {error}
         </div>
       ) : (
@@ -203,7 +203,7 @@ export default function BookingPriceCalculator({
           target={isValid ? '_blank' : undefined}
           rel="noopener noreferrer"
           aria-disabled={!isValid}
-          className={`w-full bg-brand-bronze-deep hover:bg-brand-bronze-ink text-ink-inverse font-bold text-xs uppercase tracking-wider py-3 rounded text-center block transition-all shadow ${
+          className={`w-full bg-brand-bronze-deep hover:bg-brand-bronze-ink text-ink-inverse font-bold text-xs uppercase tracking-wider py-3 rounded-md text-center block transition-all shadow ${
             !isValid ? 'opacity-50 cursor-not-allowed pointer-events-none' : ''
           }`}
         >
@@ -214,7 +214,7 @@ export default function BookingPriceCalculator({
           href={isValid ? `https://wa.me/256200555000?text=${encodeURIComponent(whatsappMessage)}` : '#'}
           target={isValid ? '_blank' : undefined}
           rel="noopener noreferrer"
-          className={`w-full bg-emerald-700 hover:bg-emerald-600 text-ink-on-scrim font-bold text-xs uppercase tracking-wider py-3 rounded text-center block transition-all shadow ${
+          className={`w-full bg-brand-bronze-deep hover:bg-brand-bronze-ink text-ink-on-scrim font-bold text-xs uppercase tracking-wider py-3 rounded-md text-center block transition-all shadow ${
             !isValid ? 'opacity-50 cursor-not-allowed' : ''
           }`}
         >
@@ -223,7 +223,7 @@ export default function BookingPriceCalculator({
 
         <Link
           href={`/contact?room=${encodeURIComponent(roomName)}&checkIn=${checkIn}&checkOut=${checkOut}&adults=${adults}`}
-          className="w-full bg-surface-page border border-brand-antique/50 hover:bg-brand-antique/10 text-brand-bronze-ink font-semibold text-xs uppercase tracking-wider py-3 rounded text-center block transition-all"
+          className="w-full bg-surface-page border border-brand-antique/50 hover:bg-brand-antique/10 text-brand-bronze-ink font-semibold text-xs uppercase tracking-wider py-3 rounded-md text-center block transition-all"
         >
           Request Formal Quote (${totalAmount})
         </Link>

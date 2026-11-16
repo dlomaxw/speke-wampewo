@@ -10,3 +10,14 @@
  */
 export const SLIDER_CARD =
   'snap-start shrink-0 basis-full sm:basis-[calc((100%-2rem)/2)] lg:basis-[calc((100%-4rem)/3)]';
+
+/** Two in view from `sm`, one on a phone. Same gap arithmetic. */
+export const SLIDER_CARD_2 =
+  'snap-start shrink-0 basis-full sm:basis-[calc((100%-2rem)/2)]';
+
+/**
+ * Four in view at `lg`, three at `sm`, two on a phone — for small tiles that
+ * would look lost at card width.
+ */
+export const SLIDER_CARD_4 =
+  'snap-start shrink-0 basis-[calc((100%-2rem)/2)] sm:basis-[calc((100%-4rem)/3)] lg:basis-[calc((100%-6rem)/4)]';

@@ -47,17 +47,21 @@ export default function CardSlider({
             type="button"
             onClick={() => scrollByCard(-1)}
             aria-label="Previous"
-            className="hidden lg:flex absolute top-1/2 -translate-y-1/2 -left-5 w-10 h-10 items-center justify-center rounded-full bg-surface-raised border border-control text-ink-primary shadow-md hover:bg-surface-sunken transition-colors"
+            className="hidden lg:flex absolute top-1/2 -translate-y-1/2 -left-6 w-11 h-11 items-center justify-center rounded-pill bg-surface-raised border border-brand-antique/50 text-brand-bronze-ink shadow-md hover:bg-brand-bronze-deep hover:text-ink-inverse hover:border-brand-bronze-deep transition-colors"
           >
-            &#8592;
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="square" aria-hidden="true">
+              <path d="M15 5l-7 7 7 7" />
+            </svg>
           </button>
           <button
             type="button"
             onClick={() => scrollByCard(1)}
             aria-label="Next"
-            className="hidden lg:flex absolute top-1/2 -translate-y-1/2 -right-5 w-10 h-10 items-center justify-center rounded-full bg-surface-raised border border-control text-ink-primary shadow-md hover:bg-surface-sunken transition-colors"
+            className="hidden lg:flex absolute top-1/2 -translate-y-1/2 -right-6 w-11 h-11 items-center justify-center rounded-pill bg-surface-raised border border-brand-antique/50 text-brand-bronze-ink shadow-md hover:bg-brand-bronze-deep hover:text-ink-inverse hover:border-brand-bronze-deep transition-colors"
           >
-            &#8594;
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="square" aria-hidden="true">
+              <path d="M9 5l7 7-7 7" />
+            </svg>
           </button>
           <p className="mt-4 text-center text-[11px] text-ink-muted lg:hidden">{hint}</p>
         </>
